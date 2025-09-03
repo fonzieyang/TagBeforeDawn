@@ -270,9 +270,21 @@ main {
     transform: translateY(-5px);
 }
 
+.social-btn:hover .social-icon {
+    transform: scale(1.1);
+}
+
 .social-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-btn i {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
 .social-text {
